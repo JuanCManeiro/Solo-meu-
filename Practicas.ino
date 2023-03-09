@@ -22,10 +22,14 @@ void setup()
 
 void loop()
 {
-  digitalWrite(INTERNO, HIGH);
-  delay(TIEMPO1); // Wait for 1000 millisecond(s)
+  digitalWrite(INTERNO, HIGH); //Comprobar que os delays funcionan corrctamente antes de seguir avanzando no codigo
+    delay(TIEMPO1); // Wait for 1000 millisecond(s)
   digitalWrite(ROJO, HIGH);
   digitalWrite(INTERNO, LOW);
-  delay(TIEMPO2); // Wait for 3000 millisecond(s)
+    delay(TIEMPO2); // Wait for 3000 millisecond(s)
   digitalWrite(ROJO, LOW);
-  delay(TIEMPO3);// Wait for 2000 millisecond(s)
+    delay(TIEMPO3);// Wait for 2000 millisecond(s)
+  
+  /**
+  Necesidade de continuar investigando, PONTE H, IF-ELSE e PULSADOR
+  **/
