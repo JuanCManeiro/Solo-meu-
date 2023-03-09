@@ -22,7 +22,7 @@ void setup()
 
 void loop()
 {
-  digitalWrite(INTERNO, HIGH); //Comprobar que os delays funcionan corrctamente antes de seguir avanzando no codigo
+  digitalWrite(INTERNO, HIGH); //Comprobar que os delays funcionan correctamente antes de seguir avanzando no codigo
     delay(TIEMPO1); // Wait for 1000 millisecond(s)
   digitalWrite(ROJO, HIGH);
   digitalWrite(INTERNO, LOW);
